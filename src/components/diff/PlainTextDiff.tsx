@@ -150,5 +150,5 @@ export class PlainTextDiff extends React.Component<
  * @param path the path of the file
  */
 export function isText(path: string): boolean {
-  return Mode.findByFileName(path) !== undefined;
+  return true;
 }
